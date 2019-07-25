@@ -25,16 +25,16 @@ $ yarn add @travistrue2008/zen-icon
 ## API
 
 This component needs to be provided a data-source to pull data from.
-An icon definition requires a `viewBox` property to define the SVG's `viewBox`, and an `svg` property to define the contents that will be injected into the `<svg>` tag:
+An icon definition requires a `viewBox` property to define the SVG's `viewBox`, and an `src` property to define the markup that will be injected into the `<svg>` tag:
 
-_NOTE: We're not including the `<svg>` tag within the `svg` content_
+_NOTE: The actual `<svg>` tag is not included in `src` as it will be provided by the component_
 
 ```js
 import { svg } from 'lit-element'
 
 const line = {
   viewBox: '0 0 200 500',
-  svg: svg`
+  src: svg`
     <line x1="0" y1="0" x2="200" y2="200" style="stroke-width:2"/>
   `,
 }

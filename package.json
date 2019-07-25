@@ -1,6 +1,6 @@
 {
   "name": "@travistrue2008/zen-icon",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "description": "An icon component for LitElement",
   "main": "src/icon.js",
