@@ -1,4 +1,4 @@
-# zen-icon
+# zensen-icon
 
 An icon component for LitElement.
 
@@ -13,13 +13,13 @@ An icon component for LitElement.
 Using `npm`:
 
 ```
-$ npm install @travistrue2008/zen-icon
+$ npm install @zensen/icon
 ```
 
 Using `yarn`:
 
 ```
-$ yarn add @travistrue2008/zen-icon
+$ yarn add @zensen/icon
 ```
 
 ## API
@@ -51,7 +51,7 @@ If we had any other icon definitions that we'd want to associate with this set, 
 Finally, we need to import the `zen-icon` component's class, `ZenIcon`, and assign a dictionary of icon sets like so:
 
 ```js
-import { ZenIcon } from '@travistrue2008/zen-icon'
+import { ZenIcon } from '@zensen/icon'
 
 ZenIcon.sets = { demo }
 ```

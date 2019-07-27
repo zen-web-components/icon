@@ -1,13 +1,13 @@
 {
-  "name": "@travistrue2008/zen-icon",
-  "version": "1.0.1",
+  "name": "@zensen/icon",
+  "version": "1.0.0",
   "license": "MIT",
   "description": "An icon component for LitElement",
   "main": "src/icon.js",
   "author": "Travis True <travis.true08@gmail.com> (http://www.travistrue.io)",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/travistrue2008/zen-icon.git"
+    "url": "git+https://github.com/travistrue2008/zensen-icon.git"
   },
   "engines": {
     "node": ">=8.5"
@@ -21,7 +21,8 @@
     "icon",
     "lit",
     "svg",
-    "zen"
+    "zen",
+    "zensen"
   ],
   "dependencies": {
     "lit-element": "^2.2.1",
