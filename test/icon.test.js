@@ -13,7 +13,8 @@ const ICON_SETS = {
 }
 
 describe('zen-icon', () => {
-  it('renders', () => expect(fixture('<zen-icon></zen-icon>')).to.eventually.exist)
+  it('renders', () =>
+    expect(fixture('<zen-icon></zen-icon>')).to.eventually.exist)
 
   it('throws an error when no set is provided', () =>
     expect(
